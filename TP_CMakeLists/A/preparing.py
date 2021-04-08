@@ -1,0 +1,15 @@
+#!/usr/bin/python
+go = open('index.h', 'w')
+go.write('#pragma once\n')
+go.write('inline int MyMin4(int a, int b ,int c, int d) {\n')
+go.write('\tint minn = a;\n')
+go.write('\tif (b < minn)\n')
+go.write('\t\tminn = b;\n')
+go.write('\tif (c < minn)\n')
+go.write('\t\tminn = c;\n')
+go.write('\tif (d < minn)\n')
+go.write('\t\tminn = d;\n')
+go.write('\treturn minn;\n')
+go.write('\treturn 0;\n}\n')
+go.close()
+

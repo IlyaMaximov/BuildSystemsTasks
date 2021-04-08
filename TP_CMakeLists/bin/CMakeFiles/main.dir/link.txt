@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -Wall -rdynamic CMakeFiles/main.dir/C/main.cpp.o -o main  -Wl,-rpath,/home/ilya/1C/PromProg/BuildSystemsTasks/TP_CMakeLists/bin/B B/libB.so 

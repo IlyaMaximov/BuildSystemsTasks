@@ -1,0 +1,6 @@
+/home/ilya/1C/PromProg/BuildSystemsTasks/TP_CMakeLists/bin/CMakeFiles/rebuild_cache.dir
+/home/ilya/1C/PromProg/BuildSystemsTasks/TP_CMakeLists/bin/CMakeFiles/edit_cache.dir
+/home/ilya/1C/PromProg/BuildSystemsTasks/TP_CMakeLists/bin/CMakeFiles/main.dir
+/home/ilya/1C/PromProg/BuildSystemsTasks/TP_CMakeLists/bin/B/CMakeFiles/rebuild_cache.dir
+/home/ilya/1C/PromProg/BuildSystemsTasks/TP_CMakeLists/bin/B/CMakeFiles/edit_cache.dir
+/home/ilya/1C/PromProg/BuildSystemsTasks/TP_CMakeLists/bin/B/CMakeFiles/B.dir

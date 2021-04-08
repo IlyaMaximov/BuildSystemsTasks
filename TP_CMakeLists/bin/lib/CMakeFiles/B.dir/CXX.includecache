@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ilya/1C/PromProg/BuildSystemsTasks/TP_CMakeLists/B/lib.cpp
+lib.h
+/home/ilya/1C/PromProg/BuildSystemsTasks/TP_CMakeLists/B/lib.h
+
+/home/ilya/1C/PromProg/BuildSystemsTasks/TP_CMakeLists/B/lib.h
+
