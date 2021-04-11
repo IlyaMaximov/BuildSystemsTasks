@@ -4,4 +4,4 @@ cd PatternsCollection
 mkdir build 
 cd build
 cmake ..
-
+make

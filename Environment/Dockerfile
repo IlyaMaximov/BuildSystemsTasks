@@ -8,6 +8,9 @@ RUN apt-get -y install libssl-dev
 RUN apt-get -y install git-core
 RUN apt-get -y install libcurl3-openssl-dev
 RUN pip install cmake --upgrade
+RUN apt-get -y install doxygen
+RUN apt-get -y install graphviz
+RUN apt-get -y install sendmail
 
 WORKDIR /home
 COPY PatternsCollection PatternsCollection
