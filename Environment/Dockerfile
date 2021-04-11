@@ -11,6 +11,7 @@ RUN pip install cmake --upgrade
 RUN apt-get -y install doxygen
 RUN apt-get -y install graphviz
 RUN apt-get -y install sendmail
+RUN apt-get -y install gnutls-dev
 
 WORKDIR /home
 COPY PatternsCollection PatternsCollection
