@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ilya/1C/PromProg/BuildSystemsTasks/CodGen/WithCodeGen/withCodeGen.cpp
+iostream
+-
+opencv2/opencv.hpp
+-
+../data.h
+/home/ilya/1C/PromProg/BuildSystemsTasks/CodGen/data.h
+
+/home/ilya/1C/PromProg/BuildSystemsTasks/CodGen/data.h
+vector
+-
+

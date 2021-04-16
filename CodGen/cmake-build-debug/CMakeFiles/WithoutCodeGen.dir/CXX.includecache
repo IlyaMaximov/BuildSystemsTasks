@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ilya/1C/PromProg/BuildSystemsTasks/CodGen/WithoutCodeGen/withoutCodeGen.cpp
+iostream
+-
+opencv2/opencv.hpp
+-
+
