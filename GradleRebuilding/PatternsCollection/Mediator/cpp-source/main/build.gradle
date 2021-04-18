@@ -1,0 +1,9 @@
+plugins {
+    id 'cpp-application'
+}
+
+application {
+    dependencies {
+        implementation project(':Mediator:cpp-source:lib')
+    }
+}
