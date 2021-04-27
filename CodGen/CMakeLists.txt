@@ -9,8 +9,9 @@ INCLUDE_DIRECTORIES( ${OpenCV_INCLUDE_DIRS} )
 
 set(py_script create_header.py)
 set(image_path map.png)
-execute_process(COMMAND ${PYTHON_EXECUTABLE} ${py_script} ${image_path}
-                WORKING_DIRECTORY "${PROJECT_SOURCE_DIR}")
+add_custom_command(COMMAND ${PYTHON_EXECUTABLE} ${py_script} ${image_path}
+                  WORKING_DIRECTORY "${PROJECT_SOURCE_DIR}"
+                  OUTPUT ${CMAKE_CURRENT_SOURCE_DIR}/data.h)
 
 add_executable(CodeGen WithCodeGen/withCodeGen.cpp)
 add_executable(WithoutCodeGen WithoutCodeGen/withoutCodeGen.cpp)
