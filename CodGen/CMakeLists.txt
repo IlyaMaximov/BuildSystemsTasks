@@ -13,8 +13,12 @@ add_custom_command(COMMAND ${PYTHON_EXECUTABLE} ${py_script} ${image_path}
                   WORKING_DIRECTORY "${PROJECT_SOURCE_DIR}"
                   OUTPUT ${CMAKE_CURRENT_SOURCE_DIR}/data.h)
 
+add_custom_target(GenerateFile DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/data.h)
+
 add_executable(CodeGen WithCodeGen/withCodeGen.cpp)
 add_executable(WithoutCodeGen WithoutCodeGen/withoutCodeGen.cpp)
+
+add_dependencies(CodeGen GenerateFile)
 
 TARGET_LINK_LIBRARIES(CodeGen ${OpenCV_LIBS})
 TARGET_LINK_LIBRARIES(WithoutCodeGen ${OpenCV_LIBS})
